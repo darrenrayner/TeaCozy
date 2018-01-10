@@ -73,7 +73,7 @@ h2, h3, h4 {
   background-image: url("../../resources/images/img-mission-background.jpg");
 }
 
-.teaofmonth {
+.featuredtea {
   height: 700px;
   width: 1000px;
   margin: auto;
@@ -102,4 +102,33 @@ h2, h3, h4 {
   padding: 5px;
   font-weight: bold;
   text-align: center;
+}
+
+#locations {
+  height: 500px;
+  padding-top: 70px;
+  background-image: url("../../resources/images/img-locations-background.jpg");
+}
+
+#locations .location {
+  width: 1100px;
+  margin: auto;
+}
+
+.locationcards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 5px;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 280px;
+  padding: 10px;
+  opacity: 1;
+  background-color: black;
+  margin: 5px 20px;
 }
